@@ -4,7 +4,7 @@ import os
 application = Flask(__name__)
 
 
-@application.route('/')l
+@application.route('/')
 def hello():
     return 'TestText'
 
